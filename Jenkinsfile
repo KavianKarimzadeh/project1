@@ -17,4 +17,9 @@ pipeline{
             }
         }
     }
+    post{
+        always{
+            echo "Post action is run"
+        }
+    }
 }
